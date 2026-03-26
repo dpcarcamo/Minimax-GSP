@@ -15,7 +15,7 @@ conda activate minimax-gsp
 
 From the project folder:
 ```
-python - <<'PY'
+
 import numpy as np
 from minimax_gsp import random_gsp_ising, exact_ising, find_gsp_update
 
@@ -28,7 +28,7 @@ h_hat, J_hat, ent, ents = find_gsp_update(mean, corr)
 print("J diff:", np.linalg.norm(J_hat - J_true))
 print("h diff:", np.linalg.norm(h_hat - h_true))
 print("Entropy:", ent)
-PY
+
 ```
 
 Or open the notebook:
